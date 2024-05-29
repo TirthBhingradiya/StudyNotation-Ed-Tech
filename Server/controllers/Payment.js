@@ -167,7 +167,7 @@ exports.sendPaymentSuccessEmail = async(req, res) => {
         return res.status(500).json({success:false, message:"Could not send email"})
     }
 }
-
+console.log("payment will be receieved");
  
 // exports.capturePayment=async(req,res) =>{
 //     //get courseId and userid
