@@ -63,7 +63,7 @@ exports.isStudent = async (req, res, next) => {
         })
     }
 }
-
+console.log("student is login");
 //isInstructor
 exports.isInstructor = async (req, res, next) => {
     try{
@@ -81,6 +81,7 @@ exports.isInstructor = async (req, res, next) => {
         })
     }
 }
+console.log("Instructor is login")
 
 // isAdmin
 exports.isAdmin = async (req, res, next) => {
@@ -99,3 +100,4 @@ exports.isAdmin = async (req, res, next) => {
         })
     }
 }
+console.log("Admin is login")
